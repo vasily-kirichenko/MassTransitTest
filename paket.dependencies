@@ -1,0 +1,8 @@
+source https://www.nuget.org/api/v2
+framework net462
+
+nuget FSharp.Core
+nuget MassTransit
+nuget MassTransit.NLog
+nuget MassTransit.RabbitMQ
+nuget System.ValueTuple 4.3.0 framework: >= net462

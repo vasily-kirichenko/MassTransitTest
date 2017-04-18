@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b03fb307-5b49-4a44-a0ba-590c762efd19</ProjectGuid>
+    <ProjectGuid>02f6586b-3f0e-4022-9dd1-08e30bb56cfc</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MassTransit.Server</RootNamespace>
-    <AssemblyName>MassTransit.Server</AssemblyName>
+    <RootNamespace>MassTransit.Client</RootNamespace>
+    <AssemblyName>MassTransit.Client</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>MassTransit.Server</Name>
+    <Name>MassTransit.Client</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

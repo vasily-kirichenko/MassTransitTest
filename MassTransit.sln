@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MassTransit.Server", "MassTransit.Server\MassTransit.Server.fsproj", "{B03FB307-5B49-4A44-A0BA-590C762EFD19}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MassTransit.Client", "MassTransit.Client\MassTransit.Client.fsproj", "{02F6586B-3F0E-4022-9DD1-08E30BB56CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{F7214A7B-F6C3-43A3-AD98-0D12A8DA8AED}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MassTransitContracts", "MassTransitContracts\MassTransitContracts.fsproj", "{9C178460-AFFD-4AB0-9387-22AD2D1BC6CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,14 @@ Global
 		{B03FB307-5B49-4A44-A0BA-590C762EFD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03FB307-5B49-4A44-A0BA-590C762EFD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03FB307-5B49-4A44-A0BA-590C762EFD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F6586B-3F0E-4022-9DD1-08E30BB56CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F6586B-3F0E-4022-9DD1-08E30BB56CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F6586B-3F0E-4022-9DD1-08E30BB56CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F6586B-3F0E-4022-9DD1-08E30BB56CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C178460-AFFD-4AB0-9387-22AD2D1BC6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C178460-AFFD-4AB0-9387-22AD2D1BC6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C178460-AFFD-4AB0-9387-22AD2D1BC6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C178460-AFFD-4AB0-9387-22AD2D1BC6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
